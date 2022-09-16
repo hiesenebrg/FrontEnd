@@ -2,9 +2,19 @@
 html{
     font-size: 30px;
 }
+#div0{
+    /* here vh is view hieght that is browser page hieght */
+    height: 50vh;
+/*    height: 100px;*/
+/* here vh is view width that is browser page width */
+    width: 50vw;
+/*    width: 150px;*/
+    background-color: cyan;
+}
 
 #div1{
-
+/* rem is relative to the fontsize of the root element */
+/* by default 1rem = 20px but also we change rem value in <html as written in top of the page */
     height: 4rem;
     /*75vh;*/
     /*200px;*/
@@ -24,3 +34,5 @@ html{
 /*    width: 150px;*/
     background-color: cyan;
 }
+
+
