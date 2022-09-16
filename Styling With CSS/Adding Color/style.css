@@ -1,10 +1,21 @@
 
-#div1{
+#outer-div1{
     height: 200px;
-    width: 200px;
+    width: 400px;
 /*    background-color: red;*/
     background-color: #393a7b;
-/*    background-color: rgb(25, 126, 200);*/
+   background-color: rgb(25, 126, 200);}
 /*    background-color: rgb(25, 126, 200, 1);*/
-/*    background-color: hsl();*/
+/* /*    background-color: hsl(); */
+#inner-div1{
+    height : 100px;
+    width : 100px;
+    background-color: bisque;
+
+}
+#outer-div2{
+    height : 100px;
+    width : 100px;
+    background-color: rgb(196, 255, 246);
+
 }
