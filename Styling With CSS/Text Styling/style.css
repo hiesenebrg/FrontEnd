@@ -2,12 +2,20 @@
 
 #sample-para{
     font-size: 30px;
+    font-style: italic;
     color: blue;
-    font-weight: 700;
-    text-align: justify;
+    font-weight :bold;
+    text-align:justify;
     line-height: 40px;
     text-transform: uppercase;
-    text-decoration: underline;
+    text-decoration :dashed;
+    word-spacing: normal;
+    text-transform: lowercase;
 }
-
+/* 
+Question - By default Hyperlinks are displayed with an underline. How do you remove the underline from all hyperlinks by using CSS code?
+ Answer - a { text-decoration:none; }
+Question - How do you make each word in a text start with a capital letter?
+Answer - text-transform:capitalize
+*/
 
