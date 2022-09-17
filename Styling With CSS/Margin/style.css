@@ -12,6 +12,9 @@ html {
     /*margin-top: 10px;*/
     margin-bottom: 20px;
 }
+/*  Note that horizontal margins adds up but vertical margins do not 
+that is if left div has right margins 20px and right div has margins 20 px then total distance between them is 40px 
+but however this is not the case in the vertival margin */
 
 
 #inner-div1{
