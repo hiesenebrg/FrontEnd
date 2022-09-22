@@ -8,6 +8,7 @@
     background-color: cyan;
     height: 200px;
     width: 200px;
+    /* we can also give negative margin */
     margin-left: -4px;
 }
 
