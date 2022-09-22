@@ -82,7 +82,7 @@ aside {
 .widget {
     border-top: 4px solid black;
 }
-
+/* this means that pnly those input  tag which belongs to the widget class  */
 .widget input {
     display: block;
     background-color: #F7F7F7;
@@ -91,7 +91,7 @@ aside {
     color: black;
     font-size: 1.2rem;
 }
-
+/* this means i am targeting all the buttons which has type submit */
 button[type="submit"] {
 
     font-size: 1.2rem;
