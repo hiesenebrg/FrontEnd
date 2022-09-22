@@ -1,0 +1,53 @@
+#container{
+    height: auto;
+    width: 75vh;
+    background-color: lightgrey;
+    display: flex;
+    /* it sets the direction to which all flexes to be shown */
+    flex-direction: row;
+    /* this wrap all the flexes automatically so that they all fill the entire div */
+    /* wrap-reverse will wrap in reverse direction */
+    flex-wrap: wrap;
+}
+
+#container div{
+    height: 200px;
+    width: 200px;
+}
+
+#div1{
+    background-color: cyan;
+    flex-grow: 1;
+    flex-shrink: 1;
+
+}
+
+
+#div2{
+    background-color: red;
+    /* now this flex-grow will occupy the vacant space in parent div accordingly bt ratio of flex-grow value */
+    /* similiarly flex-shrink will shrink if the flexes are going out of the paretn div */
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+
+#div3{
+    background-color: grey;
+    flex-grow: 1;
+    flex-shrink: 1;
+
+}
+
+#div4{
+    background-color: maroon;
+    flex-grow: 1;
+    flex-shrink: 1;
+
+}
+
+#div5{
+    background-color: orange;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
