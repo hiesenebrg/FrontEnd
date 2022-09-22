@@ -1,0 +1,36 @@
+#container{
+    height: 75vh;
+    width: 75vh;
+    background-color: lightgrey;
+    display: flex;
+    /* it sets the flex direction */
+    flex-direction: row;
+}
+
+
+#container div{
+    height: 200px;
+    width: 200px;
+}
+
+#div1{
+    background-color: cyan;
+    order: 1;
+}
+
+
+#div2{
+    background-color: red;
+    /* order:0 is the default order */
+}
+
+
+#div3{
+    background-color: grey;
+    order: 5;
+}
+
+#div4{
+    background-color: maroon;
+    order: -1;
+}
