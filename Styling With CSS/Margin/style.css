@@ -23,7 +23,7 @@ but however this is not the case in the vertival margin */
     background-color: cyan;
 }
 
-#outer-div2
+#outer-div2{
     height: 200px;
     width: 200px;
     background-color: orange;
