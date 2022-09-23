@@ -8,6 +8,9 @@
     /* this wrap all the flexes automatically so that they all fill the entire div */
     /* wrap-reverse will wrap in reverse direction */
     flex-wrap: wrap;
+    /* this will align all the flexes accordingly to justiny content */
+    /* space-around will give margin between the flexes */
+    /* justify-content: center; */
 }
 
 #container div{
