@@ -1,0 +1,7 @@
+#container{
+    width: 50px;
+    height: auto;
+    border: 2px solid black;
+    /* this will prevent the words to overflow from the div */
+    overflow-wrap: break-word;
+}
