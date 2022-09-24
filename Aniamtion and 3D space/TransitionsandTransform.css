@@ -1,0 +1,30 @@
+div{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top : 20%;
+    left: 20%;
+    background-color: aquamarine;
+    /* postive value rotate it in clockwise and negative values raotate it in anti-clockwise */
+    transform:rotate(120dg);
+    /* only rorates X-axis */
+    /* transform:rotateX(120dg); */
+    /* rotates Y-axuis */
+    /* transform:rotateY(120dg); */
+    /* this will increase or decrease the size by ratio in both vertival and horizontal */
+    /* transform: scale(1.5 , 0.4);
+     */
+     /* translate will move it */
+     /* transform: translate(10px,50px);
+      */
+      /* hieght or width that means transiton is applied to that part only (by default -> all) */
+      /* 1s is the time for which the trransiton takes place */
+      /* and the second is the way the transiton should happens */
+      /* it means after 0.5 sec hover will take place */
+    transition: height 1s ease-in-out 0.5s;
+}
+/* remember hover means when the the curser move to the div following changes will thke place */
+div :hover{
+    height: 400px;
+    width: 400px;
+}
