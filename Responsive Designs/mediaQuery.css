@@ -1,0 +1,14 @@
+/* media type ==> screen , print , speech , all */
+/* media-properties ==> width , height , resolution */
+#div1{
+    width :60%;
+    border: 1px solid black;
+}
+/* this is a media query  */
+/* this query means if the current view-port has width lesser than 600px then this condition(all css inside this query shoul be folllowed */
+@media screen and (max-width :600px) {
+    #div1{
+        width :100%;
+        border: 1px solid white;
+    }
+}
