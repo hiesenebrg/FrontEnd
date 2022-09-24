@@ -1,0 +1,9 @@
+Absolute ==> px,  in ,cm
+Relative ==> % , vh,vw , rem, em
+now by default the layour is fixed.
+so  we can use percentage as it always calculate the current width ot hieght in percentage which is also called Fluid Layouts
+rem => root font size and em => is the element font size and they are basically used in text
+
+
+
+use meta tag wo handle the page for different devices
