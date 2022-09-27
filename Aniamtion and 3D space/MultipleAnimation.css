@@ -1,0 +1,43 @@
+@keyframes changeShape{
+    from{
+        border-radius: 0%;
+    }
+    to{
+        border-radius: 50%;
+    }
+}
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(3600deg);
+    }
+}
+@keyframes reduceSize{
+    from{
+        height: 200px;
+        width: 200px;
+    }
+    to{
+        height: 100px;
+        width: 100px;
+    }
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top : 20%;
+    left: 20%;
+    background-color: aquamarine;
+    /* now here changeShape is keyframes that represent changes from and two 
+    and 1s is the time duration and ease-inpout is th process through which animation happens
+    and 2 is the number of the time and alternate is the returning transition */
+    /* animation: changeShape 1s ease-in-out 2 alternate; */
+    animation-name: changeShape , rotate , reduceSize;
+    animation-duration: .8s,.8s,.8s;
+    animation-iteration-count: infinite, infinite, infinite;
+    animation-duration: alterante , alternate , alternate;
+}
