@@ -9,5 +9,5 @@ body{
     background-image: url(image/macbook_mouse.jpg);
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
 }
