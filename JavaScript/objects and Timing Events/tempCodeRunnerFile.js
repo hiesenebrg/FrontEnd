@@ -1,1 +1,1 @@
-
+eat again and again after the given interval
